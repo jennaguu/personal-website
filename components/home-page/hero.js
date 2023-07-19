@@ -8,15 +8,14 @@ function Hero() {
       <div className={classes.image}>
         <Image
           src='/images/site/jenna.JPG'
-          alt='An image showing Jenna'
+          alt='An image of Jenna'
           width={300}
           height={300}
         />
       </div>
       <h1>Hi, I'm Jenna</h1>
       <p>
-        I blog about web development - especially frontend frameworks like
-        Angular or React.
+         Thanks for visiting my website! I'd love to <a href="https://www.linkedin.com/in/jenna-gu-738060124/" className={classes.underlineLink}>connect</a> with you
       </p>
     </section>
   );
