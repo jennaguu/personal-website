@@ -18,7 +18,7 @@ async function sendContactData(contactDetails) {
     throw new Error(data.message || 'Something went wrong!');
   }
 }
-
+// frontend that we used to talk to API backend
 function ContactForm() {
   const [enteredEmail, setEnteredEmail] = useState('');
   const [enteredName, setEnteredName] = useState('');

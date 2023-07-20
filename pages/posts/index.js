@@ -11,7 +11,7 @@ function AllPostsPage(props) {
         <title>All Projects</title>
         <meta
           name='description'
-          content='A list of all programming related projects!'
+          content='All of my programming related projects!'
         />
       </Head>
       <AllPosts posts={props.posts} />

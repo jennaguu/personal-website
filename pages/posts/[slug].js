@@ -17,7 +17,7 @@ function PostDetailPage(props) {
 }
 
 export function getStaticProps(context) {
-  const { params } = context;
+  const { params } = context; //params is object with values of dynamic segments that could lead to this file
   const { slug } = params;
 
   const postData = getPostData(slug);
@@ -31,6 +31,7 @@ export function getStaticProps(context) {
 }
 
 export function getStaticPaths() {
+  // lets Next know which concrete slug values it should pre-generate
   const postFilenames = getPostsFiles();
 
   const slugs = postFilenames.map((fileName) => fileName.replace(/\.md$/, ''));
