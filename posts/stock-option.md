@@ -1,5 +1,5 @@
 ---
-title: 'Stock options project'
+title: 'Stock options pricing model'
 date: '2021-10-11'
 image: stock-option.png
 excerpt: Web application that creates pricing models to help users find trading opportunities
@@ -7,10 +7,10 @@ excerpt: Web application that creates pricing models to help users find trading 
 isFeatured: true
 ---
 
-# General Info
+# General info
 [This application](https://github.com/skatergu/stock-option) provides a user-friendly interface to find trade opportunities based on the difference between real price and model price. It also provides multiple models, so users can find solid trade opportunities by observing different model prices.
 
-# Price Modeling
+### Price modeling
 It provides four models:
 - SplineInterpolator
 - AkimaSplineInterpolator
@@ -29,13 +29,14 @@ It provides four models:
   - [Maven](https://maven.apache.org/) - Build and manage Java-based project.
 - **Frontend:**
   - [Angular 10](https://angular.io/) A platform and framework for building single-page client application using HTML and TypeScript.
-- **Libraries and Plugins**
+- **Libraries and plugins**
   - [Apache common math](http://commons.apache.org/proper/commons-math/index.html) - Provides math utilities to solve common math problem
   - [Json Java](https://www.oracle.com/technical-resources/articles/java/json.html) - Parse JSON messages from yahoo finance
   - [lombok](https://projectlombok.org/features/all) - Reduce boilerplate code
 
 ### Application screenshots
-![Application screenshot1](stock-option.png)
 ![Application screenshot2](quote-lookup.png)
+
+![Application screenshot1](stock-option.png)
 
 Visit [my project](https://github.com/skatergu/stock-option) for details on how to run the application!
