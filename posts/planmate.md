@@ -7,7 +7,7 @@ date: '2022-6-6'
 ---
 
 ### Summary
-Planmate is an iOS app that helps .... I worked as a backend developer to help create this application as part of a 2-week hack challenge hosted by Cornell AppDev. 
+PlanMatete is an iOS app that helps .... I worked as a backend developer to help create this application as part of a 2-week hack challenge hosted by Cornell AppDev. 
 
 ### Relevant technologies
 - Flask, SQLalchemy
@@ -20,15 +20,21 @@ Planmate is an iOS app that helps .... I worked as a backend developer to help c
   - 1 frontend (Abigail Castro)
 - 1 designer (Tiffany Lee)
 
-### The app features four pages...
-- Sign up page
-  - ![Screenshot of sign up page](signup.png)
+### The app features three pages...
 - Home page
-  - ![Screenshot of home page](capturing-tutorial.png)
+  - ![Screenshot of home page](planmate-home.png)
 - Calendar page
-  - ![Screenshot of calandar page](capturing-tutorial.png)
-- Task page
-  - ![Screenshot of tasks page](capturing-tutorial.png)
+  - ![Screenshot of calandar page](calendar-page.png)
+- Tasks page
+  - ![Screenshot of tasks page](tasks-page.png)
+
+### Using the app
+  - Sign up and create a new account
+  ![sign up page](signup.png)
+  - Create a new event 
+  ![how to create an event](create-event.png)
+  - Create a new task
+  ![how to create a task](create-task.png)
 
 ### Relevant links
 - Checkout our backend repo [here](https://github.com/triple-jay/backendhackchallenge)!
