@@ -1,48 +1,9 @@
 
-.aboutMeContainer {
-  /* Add general styles for the about me container */
-}
+.mainCircularImage img {
+  border-radius: 50%;
+  height: 300px;
+  width: auto;
+  margin: 5% 20px 15px 20%;
+  background-color: var(--color-grey-700);
 
-.header {
-  /* Add styles for the header section (image and intro) */
-}
-
-.imageContainer {
-  /* Add styles for the image container */
-}
-
-.intro {
-  /* Add styles for the general introduction section */
-}
-
-.interests {
-  /* Add styles for the interests section */
-}
-
-.academicInterests {
-  /* Add styles for the academic interests section */
-}
-
-.nonAcademicInterests {
-  /* Add styles for the non-academic interests section */
-}
-
-.activities {
-  /* Add styles for the activities and work experiences section */
-}
-
-.activityItem {
-  /* Add styles for each activity/work experience item */
-}
-
-.connect {
-  /* Add styles for the "Let's Connect" section */
-}
-
-.socialLinks {
-  /* Add styles for the social links list */
-}
-
-.socialLinks li {
-  /* Add styles for individual social link items */
 }

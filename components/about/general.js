@@ -1,20 +1,22 @@
 
 import classes from './general.module.css';
+import Image from 'next/image';
+
 
 function General() {
   return (
     <section className={classes.general}>
-      <section className={classes.imageContainer}>
+      <div className={classes.mainCircularImage}>
         <Image 
-          src=''
-          alt=''
+          src='/images/about/general/sgpic.jpg'
+          alt='picture of Jenna'
           width={300}
-          height={300}
+          height={400}
         />
-      </section>
+        <h1> circularImage class tester </h1>
+      </div>
       <section className={classes.generalDescription}>
-        <h1>Your Name</h1>
-        <p>College Student</p>
+        <h3>College Student</h3>
         <p>Add your general introduction here.</p>
       </section>
   </section>
@@ -22,12 +24,3 @@ function General() {
 }
 
 export default General;
-
-<div className={classes.image}>
-<Image
-  src='/images/site/jenna.JPG'
-  alt='An image of Jenna'
-  width={300}
-  height={300}
-/>
-</div>
