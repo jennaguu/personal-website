@@ -12,12 +12,3 @@ function About () {
 };
 
 export default About;
-
-function FeaturedPosts(props) {
-  return (
-    <section className={classes.latest}>
-      <h2>Featured Projects</h2>
-      <PostsGrid posts={props.posts} />
-    </section>
-  );
-}

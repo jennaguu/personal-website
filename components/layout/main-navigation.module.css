@@ -29,6 +29,8 @@
 .header a:active,
 .header a.active {
   color: var(--color-grey-200);
+  color:navajowhite; 
+  font-weight: 900;
 }
 
 @media (min-width: 768px) {

@@ -1,9 +1,48 @@
 
+.general {
+  display: flex; /* Use flexbox to place the elements side by side */
+  align-items: center; /* Center vertically */
+  gap: 20px; /* Add some space between the image and description */
+}
+
+.imageAndDescription {
+  display: flex;
+  align-items: flex-start; /* Align items at the top of the container */
+}
+
+.mainCircularImage {
+  flex: 0 0 300px;
+  margin-right: 20px;
+}
+
 .mainCircularImage img {
   border-radius: 50%;
   height: 300px;
   width: auto;
-  margin: 5% 20px 15px 20%;
-  background-color: var(--color-grey-700);
+  margin: 10% 20px 5% 30%;
+}
 
+.generalDescription h3 {
+  margin-left: 10%;
+  margin-top: 10%;
+  display: flex; /* Use flexbox to place the elements side by side */
+  align-items: center; /* Center vertically */
+  gap: 50px; 
+  word-wrap: break-word;
+  max-width: 80%; 
+  margin-bottom: 3%;}
+
+.generalDescription h4 {
+  padding-bottom: 0;
+  margin-left: 10%;
+  margin-top: 0;
+  margin-bottom: 5%;
+}
+
+.generalDescription p {
+  margin-left: 10%;
+}
+
+.generalDescription {
+  font-size: 3vw
 }
