@@ -1,53 +1,55 @@
-
 .general {
-  display: flex; /* Use flexbox to place the elements side by side */
-  align-items: center; /* Center vertically */
-  gap: 20px; /* Add some space between the image and description */
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap; /* Allow elements to wrap to a new line if necessary */
 }
 
 .imageAndDescription {
   display: flex;
-  align-items: flex-start; /* Align items at the top of the container */
-}√
+  align-items: flex-start;
+  flex: 1; /* Allow this container to grow and shrink as needed */
+}
 
 .mainCircularImage {
   flex: 0 0 300px;
   margin-right: 20px;
+  max-width: 100%; /* Ensure the image doesn't exceed its container's width */
 }
 
 .mainCircularImage img {
   border-radius: 50%;
   max-height: 50%;
-  max-width: auto;
-  margin: 10% 20px 5% 30%;
-}
-
-.generalDescription h3 {
-  margin-left: 10%;
-  margin-top: 10%;
-  display: flex; /* Use flexbox to place the elements side by side */
-  align-items: center; /* Center vertically */
-  gap: 50px; 
-  word-wrap: break-word;
-  max-width: 80%; 
-  margin-bottom: 3%;}
-
-.generalDescription h4 {
-  padding-bottom: 0;
-  margin-left: 10%;
-  margin-top: 0;
-  margin-bottom: 5%;
-}
-
-.generalDescription p {
-  margin-left: 10%;
+  max-width: 100%; /* Ensure the image doesn't exceed its container's width */
 }
 
 .generalDescription {
-  font-size: 3vw
+  flex: 1; /* Allow this container to grow and shrink as needed */
+  font-size: 3vw;
 }
 
 .underlineLink {
   color:rgb(173, 216, 230);
   text-decoration: underline;
+}
+/* Apply this style when the screen width is less than or equal to 768px */
+@media (max-width: 768px) {
+  .general {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center items horizontally */
+  }
+
+  .imageAndDescription,
+  .mainCircularImage {
+    margin-right: 0; /* Remove the margin to prevent overlap */
+    max-width: 100%; /* Ensure elements take the full width on smaller screens */
+  }
+
+  .mainCircularImage img {
+    margin: 10% auto 5%; /* Center the image horizontally and adjust margins */
+  }
+
+  .generalDescription {
+    margin-top: 20px; /* Add some spacing between image and description on smaller screens */
+  }
 }
