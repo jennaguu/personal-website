@@ -8,7 +8,7 @@
 .imageAndDescription {
   display: flex;
   align-items: flex-start; /* Align items at the top of the container */
-}
+}√
 
 .mainCircularImage {
   flex: 0 0 300px;
@@ -17,8 +17,8 @@
 
 .mainCircularImage img {
   border-radius: 50%;
-  height: 300px;
-  width: auto;
+  max-height: 50%;
+  max-width: auto;
   margin: 10% 20px 5% 30%;
 }
 
