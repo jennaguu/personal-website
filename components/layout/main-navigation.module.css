@@ -30,6 +30,7 @@
 .header a.active {
   color: var(--color-grey-200);
   color:navajowhite; 
+  color: rgb(173, 216, 230);
   font-weight: 900;
 }
 

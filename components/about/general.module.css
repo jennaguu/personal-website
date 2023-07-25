@@ -46,3 +46,8 @@
 .generalDescription {
   font-size: 3vw
 }
+
+.underlineLink {
+  color:rgb(173, 216, 230);
+  text-decoration: underline;
+}

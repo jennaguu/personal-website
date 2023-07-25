@@ -17,7 +17,7 @@ function General() {
           </div>
         <section className={classes.generalDescription}>
           <h3>Hello! I'm Jenna Gu, a junior at Cornell University studying Information and Computer Science</h3>
-          <h4>Currently interning as a developer @ <span>Verisk</span></h4>
+          <h4>Currently working on <a href="https://core.verisk.com/" className={classes.underlineLink}> core.verisk.com</a> @ <a href="https://www.verisk.com/" className={classes.underlineLink}>Verisk</a></h4>
           <p>more content about me...</p>
         </section>
       </div>
