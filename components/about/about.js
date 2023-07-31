@@ -1,6 +1,6 @@
 // pages/about.js
 
-import styles from './general2.module.css';
+import styles from './about.module.css';
 import Image from 'next/image';
 
 const Section = ({ title, content }) => (
@@ -10,12 +10,12 @@ const Section = ({ title, content }) => (
   </div>
 );
 
-const General2 = () => {
+const About = () => {
   return (
     <div className={styles.container}>
       <div className={styles.profilePicture}>
         <Image
-          src='/images/about/general/sgpic.jpg'
+          src='/images/about/sgpic.jpg'
           alt="Jenna Gu"
           width={200}
           height={200}
@@ -41,4 +41,4 @@ const General2 = () => {
   );
 };
 
-export default General2;
+export default About;
