@@ -42,9 +42,9 @@ const About = () => {
     <div className={styles.container}>
       <div className={styles.profilePicture}>
         <Image
-          src='/images/about/sgpic.jpg'
+          src='/images/about/rome1sq.jpg'
           alt="Jenna Gu"
-          width={200}
+          width={300}
           height={200}
           layout="responsive"
           className={styles.roundedPicture}
