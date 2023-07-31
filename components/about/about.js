@@ -33,8 +33,10 @@ const About = () => {
     'Favorite courses include "Data Structures and Functional Programming", "Discrete Structures", and "Intermediate Chinese Reading and Writing"'
   ];
 
-  const workExperienceContent = "I'm currently interning as a software developer at <a href='https://www.verisk.com'>Verisk</a>";
-
+  const workExperienceContent =
+    "I'm currently interning as a software developer at <a href='https://www.verisk.com' class='" +
+    styles.linkUnderline +
+    "'>Verisk</a>";
 
   return (
     <div className={styles.container}>

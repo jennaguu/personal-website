@@ -52,3 +52,7 @@
 .roundedPicture {
   border-radius: 50%;
 }
+
+.linkUnderline {
+  text-decoration: underline;
+}
