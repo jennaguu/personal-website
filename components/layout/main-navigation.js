@@ -19,7 +19,7 @@ function MainNavigation() {
             <Link href="/posts" className={router.pathname === '/posts' ? `${classes.navLink} ${classes.active}` : classes.navLink}>Portfolio</Link>
           </li>
           <li>
-          <Link href="/about" className={router.pathname === '/about' ? `${classes.navLink} ${classes.active}` : classes.navLink}>About</Link>
+            <Link href="/about" className={router.pathname === '/about' ? `${classes.navLink} ${classes.active}` : classes.navLink}>About</Link>
           </li>
           <li>
           <Link href="/contact" className={router.pathname === '/contact' ? `${classes.navLink} ${classes.active}` : classes.navLink}>Contact</Link>
