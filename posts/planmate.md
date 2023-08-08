@@ -7,7 +7,7 @@ date: '2022-6-6'
 ---
 
 ### Summary
-PlanMatete is an iOS app that helps .... I worked as a backend developer to help create this application as part of a 2-week hack challenge hosted by Cornell AppDev. 
+PlanMate is an iOS app that helps .... I worked as a backend developer to help create this application as part of a 2-week hack challenge hosted by Cornell AppDev. 
 
 ### Relevant technologies
 - Flask, SQLalchemy
